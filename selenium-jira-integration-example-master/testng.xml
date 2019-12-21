@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Default suite" parallel="methods" verbose="3">
+	<listeners>
+		<listener class-name="com.codelabs.examples.selenium.testng.listeners.TestListener" />
+	</listeners>
+	<test name=" First test" skipfailedinvocationcounts="false">
+		<classes>
+			<class
+				name="com.codelabs.examples.selenium.tests.TC_WikipediaSearchTest">
+				<methods>
+					<include name="testCase" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
